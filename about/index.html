@@ -87,15 +87,34 @@
 
 
 
-<meta name="description" content="A cool boy">
+<meta name="description" content="A cool boy
+
+
+test 
+
+
+test">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Sparrow">
-<meta property="og:url" content="http://sparrow629.github.io/archives/2017/index.html">
+<meta property="og:title" content="关于我">
+<meta property="og:url" content="http://sparrow629.github.io/about/index.html">
 <meta property="og:site_name" content="Sparrow">
-<meta property="og:description" content="A cool boy">
+<meta property="og:description" content="A cool boy
+
+
+test 
+
+
+test">
+<meta property="og:updated_time" content="2017-03-25T03:44:25.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Sparrow">
-<meta name="twitter:description" content="A cool boy">
+<meta name="twitter:title" content="关于我">
+<meta name="twitter:description" content="A cool boy
+
+
+test 
+
+
+test">
 
 
 
@@ -123,13 +142,19 @@
 
 
 
-  <link rel="canonical" href="http://sparrow629.github.io/archives/2017/"/>
+  <link rel="canonical" href="http://sparrow629.github.io/about/"/>
 
 
 
 
 
-  <title> 归档 | Sparrow </title>
+  <title>
+  
+
+  
+    关于我 | Sparrow
+  
+</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -154,7 +179,7 @@
     
   
 
-  <div class="container sidebar-position-left  page-archive  ">
+  <div class="container sidebar-position-left  ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -292,66 +317,28 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+  <header class="post-header">
 
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 1 篇日志。 继续努力。
-    </span>
+	<h1 class="post-title" itemprop="name headline">关于我</h1>
+
+
+
+</header>
 
     
+    
+      <blockquote class="blockquote-center">A cool boy</blockquote>
 
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2017">2017</h2>
-        </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/03/24/Test/" itemprop="url">
-              
-                <span itemprop="name">Template</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-03-24T21:57:57+08:00"
-              content="2017-03-24" >
-          03-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+<!-- 标签 方式，要求版本在0.4.5或以上 -->
+<blockquote class="blockquote-center"><p>test </p>
+</blockquote>
+<!-- 标签别名 -->
+<blockquote class="blockquote-center"><p>test </p>
+</blockquote>
 
     
-
-  </section>
-
-  
-
+  </div>
 
 
           </div>
@@ -359,6 +346,17 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -593,12 +591,6 @@
 
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
-
 
   
 
@@ -616,6 +608,18 @@
       <script id="dsq-count-scr" src="https://sparrow629.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://sparrow629.github.io/about/index.html';
+          this.page.identifier = 'about/index.html';
+          this.page.title = '关于我';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://sparrow629.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
