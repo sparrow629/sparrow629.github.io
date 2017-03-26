@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sparrow</title>
+  <subtitle>Personal blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://sparrow629.github.io/"/>
+  <updated>2017-03-26T05:17:40.000Z</updated>
+  <id>http://sparrow629.github.io/</id>
+  
+  <author>
+    <name>Sparrow</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>selenium101-Mac环境下ChromeDriver配置</title>
+    <link href="http://sparrow629.github.io/2017/03/26/selenium101-Mac%E7%8E%AF%E5%A2%83%E4%B8%8BChromeDriver%E9%85%8D%E7%BD%AE/"/>
+    <id>http://sparrow629.github.io/2017/03/26/selenium101-Mac环境下ChromeDriver配置/</id>
+    <published>2017-03-26T04:12:08.000Z</published>
+    <updated>2017-03-26T05:17:40.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h5 id=&quot;介绍配置之前我想说一说我的心路历程&quot;&gt;&lt;a href=&quot;#介绍配置之前我想说一说我的心路历程&quot; class=&quot;headerlink&quot; title=&quot;介绍配置之前我想说一说我的心路历程&quot;&gt;&lt;/a&gt;介绍配置之前我想说一说我的心路历程&lt;/h5&gt;&lt;p&gt;其实很早之前就了解了selenium，也是曾今在写&lt;strong&gt;豆瓣相册爬虫&lt;/strong&gt;(有兴趣戳一下&lt;a href=&quot;https://github.com/sparrow629/Douban-Album-Clawer&quot;&gt;源码&lt;/a&gt;)的时候遇到麻烦的反爬机制的困难时，查到想用的方法之一，但是本着尽量不要曲线救国的想法，想出了更好的解决办法。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="学习" scheme="http://sparrow629.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="python" scheme="http://sparrow629.github.io/tags/python/"/>
+    
+      <category term="selenium" scheme="http://sparrow629.github.io/tags/selenium/"/>
+    
+      <category term="环境配置" scheme="http://sparrow629.github.io/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Timeline</title>
+    <link href="http://sparrow629.github.io/2017/03/24/Test/"/>
+    <id>http://sparrow629.github.io/2017/03/24/Test/</id>
+    <published>2017-03-24T13:57:57.000Z</published>
+    <updated>2017-03-26T05:15:28.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;i class=&quot;fa fa-calendar&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; 2017-03-24&lt;/p&gt;
+&lt;h1 id=&quot;Hello-world&quot;&gt;&lt;a href=&quot;#Hello-world&quot; class=&quot;headerlink&quot; title=&quot;Hello world!&quot;&gt;&lt;/a&gt;&lt;strong&gt;Hello world!&lt;/strong&gt;&lt;/h1&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://sparrow629.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="first" scheme="http://sparrow629.github.io/tags/first/"/>
+    
+      <category term="随笔" scheme="http://sparrow629.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
