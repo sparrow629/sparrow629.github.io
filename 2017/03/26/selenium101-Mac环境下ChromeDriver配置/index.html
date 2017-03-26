@@ -87,19 +87,16 @@
 
 
 
-<meta name="description" content="介绍配置之前我想说一说我的心路历程其实很早之前就了解了selenium，也是曾今在写豆瓣相册爬虫(有兴趣戳一下源码)的时候遇到麻烦的反爬机制的困难时，查到想用的方法之一，但是本着尽量不要曲线救国的想法，想出了更好的解决办法。
-来说说Selenium + Python + BrowserDriver其实是用来作web自动化检测的好工具，作用是模拟人的操作行为在浏览器里自动操作网页。简单来说就是基于网">
+<meta name="description" content="介绍配置之前我想说一说我的心路历程其实很早之前就了解了selenium，也是曾今在写豆瓣相册爬虫(有兴趣戳一下源码)的时候遇到麻烦的反爬机制的困难时，查到想用的方法之一，但是本着尽量不要曲线救国的想法，想出了更好的解决办法。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="selenium101-Mac环境下ChromeDriver配置">
 <meta property="og:url" content="http://sparrow629.github.io/2017/03/26/selenium101-Mac环境下ChromeDriver配置/index.html">
 <meta property="og:site_name" content="Sparrow">
-<meta property="og:description" content="介绍配置之前我想说一说我的心路历程其实很早之前就了解了selenium，也是曾今在写豆瓣相册爬虫(有兴趣戳一下源码)的时候遇到麻烦的反爬机制的困难时，查到想用的方法之一，但是本着尽量不要曲线救国的想法，想出了更好的解决办法。
-来说说Selenium + Python + BrowserDriver其实是用来作web自动化检测的好工具，作用是模拟人的操作行为在浏览器里自动操作网页。简单来说就是基于网">
-<meta property="og:updated_time" content="2017-03-26T05:14:58.000Z">
+<meta property="og:description" content="介绍配置之前我想说一说我的心路历程其实很早之前就了解了selenium，也是曾今在写豆瓣相册爬虫(有兴趣戳一下源码)的时候遇到麻烦的反爬机制的困难时，查到想用的方法之一，但是本着尽量不要曲线救国的想法，想出了更好的解决办法。">
+<meta property="og:updated_time" content="2017-03-26T05:17:40.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="selenium101-Mac环境下ChromeDriver配置">
-<meta name="twitter:description" content="介绍配置之前我想说一说我的心路历程其实很早之前就了解了selenium，也是曾今在写豆瓣相册爬虫(有兴趣戳一下源码)的时候遇到麻烦的反爬机制的困难时，查到想用的方法之一，但是本着尽量不要曲线救国的想法，想出了更好的解决办法。
-来说说Selenium + Python + BrowserDriver其实是用来作web自动化检测的好工具，作用是模拟人的操作行为在浏览器里自动操作网页。简单来说就是基于网">
+<meta name="twitter:description" content="介绍配置之前我想说一说我的心路历程其实很早之前就了解了selenium，也是曾今在写豆瓣相册爬虫(有兴趣戳一下源码)的时候遇到麻烦的反爬机制的困难时，查到想用的方法之一，但是本着尽量不要曲线救国的想法，想出了更好的解决办法。">
 
 
 
@@ -411,8 +408,7 @@
       
 
       
-        <h5 id="介绍配置之前我想说一说我的心路历程"><a href="#介绍配置之前我想说一说我的心路历程" class="headerlink" title="介绍配置之前我想说一说我的心路历程"></a>介绍配置之前我想说一说我的心路历程</h5><p>其实很早之前就了解了selenium，也是曾今在写<strong>豆瓣相册爬虫</strong>(有兴趣戳一下<a href="https://github.com/sparrow629/Douban-Album-Clawer" target="_blank" rel="external">源码</a>)的时候遇到麻烦的反爬机制的困难时，查到想用的方法之一，但是本着尽量不要曲线救国的想法，想出了更好的解决办法。</p>
-<p>来说说Selenium + Python + BrowserDriver其实是用来作web自动化检测的好工具，作用是模拟人的操作行为在浏览器里自动操作网页。简单来说就是基于网页的测试，比如往表单里填各种乱七八糟的值，戳一戳提交按钮，看看有什么bug。</p>
+        <h5 id="介绍配置之前我想说一说我的心路历程"><a href="#介绍配置之前我想说一说我的心路历程" class="headerlink" title="介绍配置之前我想说一说我的心路历程"></a>介绍配置之前我想说一说我的心路历程</h5><p>其实很早之前就了解了selenium，也是曾今在写<strong>豆瓣相册爬虫</strong>(有兴趣戳一下<a href="https://github.com/sparrow629/Douban-Album-Clawer" target="_blank" rel="external">源码</a>)的时候遇到麻烦的反爬机制的困难时，查到想用的方法之一，但是本着尽量不要曲线救国的想法，想出了更好的解决办法。<br><a id="more"></a><br>来说说Selenium + Python + BrowserDriver其实是用来作web自动化检测的好工具，作用是模拟人的操作行为在浏览器里自动操作网页。简单来说就是基于网页的测试，比如往表单里填各种乱七八糟的值，戳一戳提交按钮，看看有什么bug。</p>
 <p>然而Selenium + Python 配合BeautifulSoup或者re也可以成为模拟真实用户的爬虫，这个优点就是可以自如应对动态加载的网页的，还包括需要登录的网页。虽然我觉得所有动态加载网页都可以有办法用静态方式，分析链接和css布局来爬取。但是多一条路多一种选择，走完了才知道哪条路远一些，喊声最大的一般都是在起点犹豫的。当然用Selenium爬取缺点也很明显，就是当爬取得量一大速度明显很慢，满足不了大数据量的爬取方式。我觉得因为这是一种模拟用户行为，当正常爬虫已经得到请求了，这边还在submit，所以你说呢（欢迎指正）。</p>
 <h5 id="进入正题，环境配置"><a href="#进入正题，环境配置" class="headerlink" title="进入正题，环境配置"></a>进入正题，环境配置</h5><p>关于如何安装Selenium，不多说了google it.<br>我这里说一下PyCharm的package管理真的是良心，我装了python3.5，之前有一些包在terminal里死活装不上3.5里，找了各种办法，堪比Windows下VS环境配置。最后我发现PyCharm可以对不同版本的包进行一站式管理。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Preferences &gt; Project: name &gt; Project interpreter</div></pre></td></tr></table></figure></p>
 <p>添加，删除都可以操作，如果在非系统版本安装遇到问题，先对系统版本的同名package进行操作，比如删除安装。再到你要安装的版本操作，比如Selenium。</p>
